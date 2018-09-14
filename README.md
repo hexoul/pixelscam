@@ -27,7 +27,7 @@ go test -v
 Option A. AWS Lambda
 1. Set Lambda on AWS
   - Function package: compressed binary file in $GOPATH/src/{repo}/bin
-  - Handler: cache (binary file name, it is optional)
+  - Handler: pixelscam (binary file name, it is optional)
   - Runtime: Go 1.x
 2. Set API Gateway for cache server on AWS
 3. Add API Gateway as Lambda trigger
