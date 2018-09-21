@@ -29,9 +29,9 @@ Option A. AWS Lambda
   - Function package: compressed binary file in $GOPATH/src/{repo}/bin
   - Handler: pixelscam (binary file name, it is optional)
   - Runtime: Go 1.x
-2. Set API Gateway for cache server on AWS
-3. Add API Gateway as Lambda trigger
-4. Add CloudWatch Logs
+1. Set API Gateway for cache server on AWS
+1. Add API Gateway as Lambda trigger
+1. Add CloudWatch Logs
 
 ## License
 MIT © [hexoul](https://github.com/hexoul)
